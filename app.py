@@ -26,7 +26,7 @@ def create_problems():
             flash("Title required" , category="error")
             has_error = True
         if not description:
-             flash("Description requred" , category="error")
+             flash("Description required" , category="error")
              has_error = True
         if not software_types:
             flash("Software Types Required" , category="error")
